@@ -8,6 +8,30 @@ IT Support Automation is a lightweight Python command-line utility designed for 
 
 The current implementation centers on `pc_health_check.py`, a local execution script that demonstrates a repeatable support automation pattern without touching high-risk system directories.
 
+### Example Terminal Output
+
+```text
+[INFO] Starting system health check and maintenance...
+[OK] Report successfully generated: health_report_2026-06-24_08-57-58.txt
+```
+
+Generated health report:
+
+```text
+=========================================
+IT SUPPORT AUTOMATION REPORT - 2026-06-24 08:57:58.254052
+=========================================
+
+Operating System: Windows 11
+Machine Architecture: AMD64
+Available Disk Space: 403.85 GB
+Disk Space Status: Healthy
+
+Maintenance: Cleaned 3 temporary files.
+
+=========================================
+```
+
 ## 📋 The Administrative Burden
 
 Support teams lose time to manual, repetitive checks that are necessary but low-value when performed by hand. Technicians often need to confirm operating system details, disk capacity, machine architecture, and cleanup status before escalating or closing common desktop support tickets.
