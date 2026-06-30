@@ -186,3 +186,8 @@ dir health_report_*.txt
 - Add unit tests around disk threshold logic and report generation.
 - Introduce explicit allowlists before expanding cleanup to real system paths.
 - Consider packaging the script as an internal support utility with versioned releases.
+
+## ✅ CI Pipeline & Verification
+
+This project integrates a GitHub Actions CI workflow to ensure script reliability on every commit:
+- **Syntax Verification:** Automatically compiles the Python source file (`pc_health_check.py`) using `py_compile` to confirm that no structural syntax errors exist.
